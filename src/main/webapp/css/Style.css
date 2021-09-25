@@ -13,7 +13,7 @@
             width: 100%;
             background-image: url(HEXA.jpg);
             background-size: cover;
-            background-position: center center;
+            background-position: center;
         }
         .form-container{
             position: absolute;
@@ -22,7 +22,7 @@
             transform: translate(-50%,-50%);
             width: 380px;
             padding: 50px 30px;
-            border-radius: 10px;
+            border-radius: 20px;
             box-shadow:7px 7px 60px rgb(192, 36, 8);
         }
         h1{
@@ -34,7 +34,7 @@
         }
         
         h3 {
-        	color: #ff8000;
+        	color: #a2775e;
             font-size: 1em;
             text-transform: uppercase;
             text-align: center;
@@ -46,7 +46,7 @@
             display: block;
             width: 100%;
             color:#000;
-            background: #ddd;
+            background: rgb(64, 0, 0)000;
             outline: none;
             border: none;
             margin: 1em 0;
@@ -62,7 +62,7 @@
 			background: transparent;
 			outline: none;
 			height: 40px;
-			color: #b7b7b7;
+			color: #400000;
 			font-size: 16px;
 			
         }
@@ -74,6 +74,7 @@
 	            background: rgb(220, 60, 20);
 	            opacity: .7;
 	            transition:opacity .3s ease;
+	            border-radius: 20px;
         }
         .btn:focus{
             opacity: 10;
@@ -89,7 +90,7 @@
             opacity: .7;
         }
         a:hover{
-            opacity: 5;
+            opacity: 25;
         }
 
    

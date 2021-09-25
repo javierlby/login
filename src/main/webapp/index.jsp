@@ -12,7 +12,7 @@
 		body{		
 			height: 10%;
   			margin: 50%;
-  			background-image: url("hexa.JPG");
+  			background-image: url("HEXA.jpg");
     		background-position: center;
   			background-repeat: no-repeat;
  			background-size: cover;
