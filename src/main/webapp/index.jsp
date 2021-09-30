@@ -11,12 +11,14 @@
     <style>
 		body{		
 			height: 10%;
-  			margin: 50%;
-  			background-image: url("HEXA.jpg");
-    		background-position: center;
+  			margin: 18%;
+  			background-image: url("registro.jpg");
+    		background-position: center center fixed;
   			background-repeat: no-repeat;
  			background-size: cover;
- 			
+ 			background-attachment: fixed;
+ 			position: relative;
+
     	}
     
 	</style>
@@ -37,7 +39,7 @@
            			<input type="submit" class="btn" value="Cancelar">
             	</div>
         	 </form>
-        
+        	
         </div>
     </section>
 </body>

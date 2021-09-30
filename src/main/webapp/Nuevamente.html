@@ -11,7 +11,7 @@
 		body{		
 			height: 10%;
   			margin: 50%;
-  			background-image: url("HEXA.jpg");
+  			background-image: url("registro.jpg");
     		background-position: center;
   			background-repeat: no-repeat;
  			background-size: cover;
@@ -26,25 +26,19 @@
 
     <section>
         <div class="form-container">
-            <h1>Tienda Virtual</h1>
-        <form action="validar.jsp" method="post">
-            <div class="control">
-            <label for="name">Usuario</label>
+            	<h1>Tienda Genérica</h1>
+       		 <form action="validar.jsp" method="post">
+           		 <div class="control">
+            		<p>Usuario</p>
             
-            <input type="text" name="usu" placeholder="Ingrese nombre de usuario" required >
-            </div>
-            <div class="control">
-            <label for="pss">Contraseña</label>
-            <input type="password" name="pass" placeholder="*******" required>
-            </div>
-            
-            <div class="control">
-            <input type="submit" class="btn" value="Aceptar">
-            <input type="submit" class="btn" value="Cancelar">
-            </div>
-        </form>
+            		<input type="text" name="usu" placeholder="Ingrese nombre de usuario" required >
+            		<p>Contraseña</p>
+            		<input type="password" name="pass" placeholder="*******" required>
+            		<input type="submit" class="btn" value="Aceptar">
+           			<input type="submit" class="btn" value="Cancelar">
+            	</div>
+        	 </form>
         	<h3> Nombre de usuario y/o contraseña errados </h3>
-        
         </div>
     </section>
 </body>

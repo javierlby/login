@@ -9,9 +9,9 @@
 
         section{
             
-            height: 100vh;
-            width: 100%;
-            background-image: url(HEXA.jpg);
+            height: 50vh;
+            width: 50%;
+            background-image: url(registro.jpg);
             background-size: cover;
             background-position: center;
         }
@@ -23,10 +23,15 @@
             width: 380px;
             padding: 50px 30px;
             border-radius: 20px;
-            box-shadow:7px 7px 60px rgb(192, 36, 8);
+            box-shadow:17px 17px 60px rgb(234, 253, 253);
         }
+        
+        
+        
+      
+		
         h1{
-            color: #ff8000;
+            color: #fffff4;
             font-size: 2em;
             text-transform: uppercase;
             text-align: center;
@@ -71,7 +76,7 @@
 	    .control .btn{
 	            color: #fff;
 	            text-transform: uppercase;
-	            background: rgb(220, 60, 20);
+	            background: rgb(0, 115, 230);
 	            opacity: .7;
 	            transition:opacity .3s ease;
 	            border-radius: 20px;
