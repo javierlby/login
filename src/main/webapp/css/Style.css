@@ -4,6 +4,7 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            font-family: 'Squada One', cursive;
         }
         
 
@@ -23,14 +24,10 @@
             width: 380px;
             padding: 50px 30px;
             border-radius: 20px;
-            box-shadow:17px 17px 60px rgb(234, 253, 253);
+            box-shadow:10px 10px 50px rgb(234, 253, 253);
         }
         
-        
-        
-      
-		
-        h1{
+		 h1{
             color: #fffff4;
             font-size: 2em;
             text-transform: uppercase;
